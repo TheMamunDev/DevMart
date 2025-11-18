@@ -29,6 +29,29 @@ interactive charts to visualize app ratings and reviews.
 - Toastify
 - SweetAlert2
 
+## Dependencies
+
+```bash
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^7.0.1",
+    "@fortawesome/free-brands-svg-icons": "^7.0.1",
+    "@fortawesome/free-regular-svg-icons": "^7.0.1",
+    "@fortawesome/free-solid-svg-icons": "^7.0.1",
+    "@fortawesome/react-fontawesome": "^3.0.2",
+    "@tailwindcss/vite": "^4.1.13",
+    "axios": "^1.12.2",
+    "react": "^19.1.1",
+    "react-countup": "^6.5.3",
+    "react-dom": "^19.1.1",
+    "react-icons": "^5.5.0",
+    "react-router": "^7.9.3",
+    "react-toastify": "^11.0.5",
+    "recharts": "^3.2.1",
+    "styled-components": "^6.1.19",
+    "sweetalert2": "^11.25.0",
+    "tailwindcss": "^4.1.13"
+  }
+```
 ## Pages
 
 - **Home Page:** Navbar, Banner, state cards, trending apps section, navigation.
@@ -38,6 +61,22 @@ interactive charts to visualize app ratings and reviews.
   ,Sort by downloads.
 - **Error Page:** Custom page for invalid routes and not found app.
 
+
+### 🚀 Getting Started (Local Setup)
+
+To view and run this project locally, follow these simple steps:
+
+1.  **Clone the repository:**
+    ```bash
+    git clone https://github.com/TheMamunDev/DevMart.git
+    ```
+
+2.  **Navigate to the project directory:**
+    ```bash
+    cd DevMart
+    npm install
+    npm run dev
+    ```
 ## Live Demo
 
 https://dev-mart-hero.netlify.app/
